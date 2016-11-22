@@ -1,0 +1,66 @@
+.header {
+    width: 100%;
+    margin:10px auto;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.header a , .header a:visited{
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    line-height:25px;
+    padding: 5px 10px;
+    background: #8f7a66;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.header a:hover, .header a:active {
+    background: #9f8b77;
+}
+
+.header p {
+    font-size: 22px;
+}
+
+.game_container {
+    width: 460px;
+    height: 460px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #bbada0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.grid_cell {
+    width: 100px;
+    height: 100px;
+    background: #ccc0b3;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    position: absolute;
+}
+
+.number_cell {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    position: absolute;
+
+    font-size: 60px;
+    font-weight:bold;
+    line-height: 100px;
+    text-align: center;
+}
